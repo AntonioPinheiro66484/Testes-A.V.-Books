@@ -100,7 +100,7 @@ function calcularFrete() {
   }
 
   rl.question("Digite o estado de entrega: ", (estado) => {
-    if (estado.toLowerCase() === "são paulo") {
+    if (estado.toLowerCase() === "sp") {
       valorFrete = 0;
       console.log(`Frete Grátis para São Paulo! Valor Total da Compra: R$ ${valorTotal.toFixed(2)}`);
       escolherFormaPagamento();
