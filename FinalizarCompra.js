@@ -7,7 +7,7 @@
 //Digite 1 para adicionar um produto ao carrinho
 //Digite o nome, o preço e a quantidade que deseja 
 //Caso queira poderá adicionar ou remover os produtos do carrinho
-//Digite 3 para o calculo do frete e digite o nome do estado 
+//Digite 3 para o calculo do frete e digite e o nome do estado 
 //Escolha sua forma de pagamento digite 1 para boleto, 2 para Cartão de Credito e 3 para Débito.
 //Espere a entrega do produto e visualize o status dele podendo cancelar caso necessario antes do prazo final de entrega
 
