@@ -1,3 +1,28 @@
+//Codigo desenvolvido por Antonio Gabriel Pinheiro Lima
+//Testado por Igor Machado Joaquim e Vincius Guido Vallim
+
+//Finalidade: Simular o sistema finalizar e visualizar pedido dos casos de uso do nosso e-commerce
+
+//Instruções
+//Digite 1 para adicionar um produto ao carrinho
+//Digite o nome, o preço e a quantidade que deseja 
+//Caso queira poderá adicionar ou remover os produtos do carrinho
+//Digite 3 para o calculo do frete e digite o nome do estado 
+//Escolha sua forma de pagamento digite 1 para boleto, 2 para Cartão de Credito e 3 para Débito.
+//Espere a entrega do produto e visualize o status dele podendo cancelar caso necessario antes do prazo final de entrega
+
+//Regras:
+//Entrega sera feita para todo o brasil.
+//Frete é gratis para toda sp.
+//Boleto a vista terá 10% de desconto e o pagamento em cartão de crédito poderá ser feito em até 5x sem juros.
+//usuario poderá visualisar o status do seu pedido enquanto ele está em andamento até sua entrega e cancelar caso necessario.
+
+//Dependencias:
+//Digite "npm i" para instalar as dependencias no terminal.
+
+//Inicializar o codigo:
+//Digite "node FinalizarCompra.js" no terminal.
+
 const readline = require('readline');
 
 const rl = readline.createInterface({
